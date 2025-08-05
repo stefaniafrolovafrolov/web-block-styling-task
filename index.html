@@ -2,67 +2,81 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      lift-section__content="width=device-width, initial-scale=1.0"
-    />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>Секция сайта</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лифтинг секция сайта</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./fonts/stylesheet.css" />
   </head>
   <body class="body">
     <div class="root">
       <main class="content">
         <section class="lift-section">
-          <div class="lift-section__content">
-            <h2 class="lift-section__title">
-              <span class="lift-section__title-nowrap"></span>Нитевой лифтинг
-              <span class="lift-section__title-nowrap"
-                >с медицинской точностью</span
-              >
-              <span class="lift-section__title-nowrap"
-                >и эстетическим тактом</span
-              >
-            </h2>
-            <ul class="lift-section__lists">
-              <li class="lift-section__lists-item">
-                <img
-                  class="lift-section__icon"
-                  src="./image/Tick-Circle.svg"
-                  alt="иконка галочка"
-                />
-                <p class="lift-section__text">
-                  Проводим процедуру лифтинга с опорой<br />
-                  на анатомические особенности вашего лица
-                </p>
-              </li>
-              <li class="lift-section__lists-item">
-                <img
-                  class="lift-section__icon"
-                  src="./image/tick-circle.svg"
-                  alt="иконка галочка"
-                />
-                <p class="lift-section__text">
-                  Используем только сертифицированные нити –<br />ARTOS и Spring
-                  Thread
-                </p>
-              </li>
-            </ul>
-            <button class="lift-section__button-details">
-              Подробнее
-              <img
-                class="lift-section__button-icon"
-                src="./image/circle-button.svg"
-                alt="стрелка"
-              />
-            </button>
-          </div>
-          <div class="lift-section__image-container">
-           
-         <img
-              class="lift-section__image"
-              src="./image/fase.png"
-              alt="Медицинский лифтинг"
-            />
+          <div class="container">
+            <div class="lift-section__inner">
+              <div class="lift-section__box-content">
+                <h2 class="lift-section__title">
+                 <span class="lift-section__title lift-section__title_nowrap">Нитевой лифтинг</span> <br />
+                <span class="lift-section__title lift-section__title_nowrap">с медицинской точностью</span><br />
+                 <span class="lift-section__title lift-section__title_nowrap">и эстетическим тактом</span> 
+                </h2>
+                <ul class="lift-section__list">
+                  <li class="lift-section__item">
+                    <div class="lift-section__icon">
+                      <img
+                        class="lift-section__icon-img"
+                        src="./images/check.svg"
+                        alt="иконка галочки"
+                      />
+                    </div>
+                    <p class="lift-section__text">
+                      Проводим процедуру лифтинга с опорой
+                      <br />на анатомические особенности вашего лица
+                    </p>
+                  </li>
+                  <li class="lift-section__item">
+                    <div class="lift-section__icon">
+                      <img
+                        class="lift-section__icon-img"
+                        src="./images/check.svg"
+                        alt="иконка галочки"
+                      />
+                    </div>
+                    <p class="lift-section__text">
+                      Используем только сертифицированные нити —<br />
+                      APTOS и Spring Thread
+                    </p>
+                  </li>
+                </ul>
+                <div class="lift-section__btn">
+                  <a class="lift-section__link" href="#">
+                    <span class="lift-section__link-text">Подробнее</span>
+                    <img
+                      class="lift-section__arrow"
+                      src="./images/arrow.svg"
+                      alt="стрелка"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <div class="lift-section__images">
+                <div class="lift-section__box-image lift-section__box-image_pc">
+                  <img
+                    class="lift-section__box-image-fase"
+                    src="./images/face-pc.png"
+                    alt="На изображении лицо женщины"
+                  />
+                </div>
+                <div class="lift-section__box-image lift-section__box-image_xs">
+                  <img
+                    class="lift-section__box-image-fase"
+                    src="./images/face-xs.png"
+                    alt="На изображении лицо женщины"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
